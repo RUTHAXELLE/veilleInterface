@@ -1,0 +1,59 @@
+/* RESET : */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+} 
+
+body{
+
+	background-color: white;
+}
+
+
+h1 {
+	color: red;
+}
+
+p.introduction {
+
+	color: darkred;
+}
+
+h3 {
+
+	color: darkblue;
+}
+
+p.developpement {
+
+	color: black;
+}
+
+.login{
+	display: block;
+	width:300px;
+	height:auto;
+}
+.login ul {
+	list-style-type:none;
+}
+.login ul li a { 
+	display:block;
+	width:110px;
+	height:20px;
+	padding:5px;
+	background-color: yellow;
+	text-decoration:none;
+	text-align:center;
+	position:relative;
+	floot:left;
+	margin:3px;
+
+}
+
+#intro {
+	margin-bottom: 100 px;
+}
